@@ -27,7 +27,7 @@ The Rolling Scopes School (Front-end/JavaScript)
 
 ## Experience
 
-Frontend Mentor Challenge [manage-landing-page](vermillion-klepon-1cfaef.netlify.app/)
+Frontend Mentor Challenge [manage-landing-page](https://vermillion-klepon-1cfaef.netlify.app/)
 
 Personal Project [photo-search-app](https://hannakozak.github.io/photo-search-app/)
 
