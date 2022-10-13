@@ -21,6 +21,7 @@
                 <li><a href="#education">Education</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#languages">Languages</a></li>
+                <li><a href="#codeExample">Code Example</a></li>
             </ul>
         </nav>
         <div class="header_image">
@@ -81,6 +82,20 @@
                 <li>English C1</li>
             </ul>
         </section>
+        <section id='codeExample'>
+            <h2>Code example</h2>
+            <pre>
+                <code>
+                    export const fetchCategories = createAsyncThunk(
+                      'categories/fetchCategories',
+                       async () => {
+                        let response = await apolloClient.query({ query: categoriesQuery });
+                        return response.data.categories;
+                      }
+                    )
+                   </code>
+            </pre>
+        </section>
         <aside>
             <section id="about">
                 <h2>About me</h2>
@@ -109,7 +124,7 @@
     </main>
     <footer>
         <a class="footer-github" href="https://github.com/hannakozak" target="_blank">Visit my GitHub</a>
-        <p>©Copyright 2022 by hanna.</p>
+        <p>©Copyright 10/2022 by hanna.</p>
         <a href="https://rs.school/js-en/">
             <img src="./images/rs_school.svg" alt="rsschool logo"></a>
     </footer>
