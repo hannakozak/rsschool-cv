@@ -101,7 +101,7 @@
                         <code>
         export const fetchCategories = createAsyncThunk(
             "categories/fetchCategories",
-                async () = &ampgt {
+                async function () {
                     let response = await apolloClient.query({
                         query: categoriesQuery });
                         return response.data.categories;
