@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 120rem;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 4px 35px rgba(5, 39, 74, 0.21);
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #00264c;
+  color: white;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header_image {
+  width: 30%;
+}
+
+.header_text {
+  width: 70%;
+}
+
+.header_image img {
+  height: 15rem;
+}
+
+nav {
+  padding: 2rem 4rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.4rem;
+  list-style: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #00264c;
+}
+
+.main_content {
+  width: 70%;
+  padding: 4rem;
+}
+.main_content section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.main_content ul {
+  padding: 0 4rem;
+}
+
+.main_aside {
+  width: 30%;
+  padding: 4rem;
+  background-color: #00264c;
+  color: white;
+  text-align: center;
+}
+
+.main_aside section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.main_aside ul {
+  list-style: none;
+}
+
+#experience li {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+#experience a {
+  color: #ffbf00;
+  font-weight: 700;
+  text-decoration: none;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding: 0 4rem;
+  background-color: #00264c;
+  color: white;
+}
+
+footer img {
+  width: 8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
